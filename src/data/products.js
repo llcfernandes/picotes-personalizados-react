@@ -35,7 +35,7 @@ const products = [
   {
     id: 'natal',
     emoji: '🎄',
-    title: 'Bolinhas de Natal',
+    title: 'Natal',
     description:
       'Bolinhas de Natal únicas com nomes, datas e ilustrações personalizadas. O presente perfeito para a família.',
     tags: ['Natal', 'Presente', 'Família'],
@@ -52,7 +52,7 @@ const products = [
   {
     id: 'pascoa',
     emoji: '🐣',
-    title: 'Capas de Chocolate Páscoa',
+    title: 'Páscoa',
     description:
       'Embalagens criativas para ovos de Páscoa com personagens, temas e mensagens à sua escolha.',
     tags: ['Páscoa', 'Chocolate', 'Criativo'],
@@ -69,7 +69,7 @@ const products = [
   {
     id: 'agendas',
     emoji: '📔',
-    title: 'Agendas Personalizadas',
+    title: 'Agendas',
     description:
       'Agendas com capa e conteúdo totalmente personalizados para uso pessoal, corporativo ou como brinde.',
     tags: ['Corporativo', 'Brinde', 'Planejamento'],
@@ -89,28 +89,58 @@ export const TESTIMONIALS = [
   {
     id: 1,
     stars: '⭐⭐⭐⭐⭐',
-    text: 'O topo de bolo ficou incrível! Muito melhor do que eu imaginava. Super recomendo!',
-    author: 'Ana Paula',
+    text: 'Fiquei impressionada com o acabamento! Cada detalhe foi feito com muito capricho.',
+    author: 'Carla Mendes',
   },
   {
     id: 2,
     stars: '⭐⭐⭐⭐⭐',
-    text: 'Encomendei agendas para todo o escritório. Profissionalismo e qualidade impecáveis.',
-    author: 'Marcos Vinicius',
+    text: 'Entrega rápida e produto exatamente como combinado. Atendimento excelente!',
+    author: 'Rafael Souza',
   },
   {
     id: 3,
     stars: '⭐⭐⭐⭐⭐',
-    text: 'As bolinhas de Natal ficaram lindíssimas! A família toda adorou o presente personalizado.',
-    author: 'Juliana Costa',
+    text: 'Minha festa ficou muito mais especial com os personalizados. Todos elogiaram!',
+    author: 'Fernanda Lima',
+  },
+  {
+    id: 4,
+    stars: '⭐⭐⭐⭐⭐',
+    text: 'Qualidade impecável! Dá pra ver que é feito com muito cuidado e dedicação.',
+    author: 'Bruno Almeida',
+  },
+  {
+    id: 5,
+    stars: '⭐⭐⭐⭐⭐',
+    text: 'Já é a segunda vez que compro e continuo apaixonada pelo resultado!',
+    author: 'Patrícia Gomes',
+  },
+  {
+    id: 6,
+    stars: '⭐⭐⭐⭐⭐',
+    text: 'O atendimento foi super atencioso e o produto ficou ainda mais bonito do que nas fotos.',
+    author: 'Lucas Martins',
+  },
+  {
+    id: 7,
+    stars: '⭐⭐⭐⭐⭐',
+    text: 'Personalização perfeita! Fez toda diferença no presente.',
+    author: 'Amanda Ribeiro',
+  },
+  {
+    id: 8,
+    stars: '⭐⭐⭐⭐⭐',
+    text: 'Trabalho incrível, acabamento delicado e entrega dentro do prazo.',
+    author: 'Diego Ferreira',
   },
 ]
 
 export const HOW_IT_WORKS = [
-  { number: '01', title: 'Fale conosco',  description: 'Entre em contato pelo WhatsApp e nos conte o que você precisa.' },
-  { number: '02', title: 'Personalizamos', description: 'Nossa equipe cria um design exclusivo para o seu pedido.' },
-  { number: '03', title: 'Aprovação',     description: 'Você aprova a arte antes de darmos início à produção.' },
-  { number: '04', title: 'Entregamos',    description: 'Seu pedido chega com segurança e no prazo combinado.' },
+  { number: '01', title: 'FALE CONOSCO',  description: 'Entre em contato pelo WhatsApp e nos conte o que você precisa.' },
+  { number: '02', title: 'PERSONALIZAMOS', description: 'Nossa equipe cria um design exclusivo para o seu pedido.' },
+  { number: '03', title: 'APROVAÇÃO',     description: 'Você aprova a arte antes de darmos início à produção.' },
+  { number: '04', title: 'ENTREGA NO ENDEREÇO DA LOJA ( ILHA DO GOVERNADOR )',    description: 'Seu pedido entregue com segurança e no prazo combinado.' },
 ]
 
 export default products

@@ -8,7 +8,7 @@ import { WHATSAPP_DEFAULT_MESSAGE } from '../data/products'
 
 const FooterWrapper = styled.footer`
   background: ${({ theme }) => theme.colors.primaryDark};
-  color: #fff;
+  color: #000000;
   padding: 56px 24px 32px;
 `
 
@@ -36,7 +36,7 @@ const Logo = styled.p`
 const Desc = styled.p`
   font-size: 0.88rem;
   line-height: 1.7;
-  color: rgba(255,255,255,0.72);
+  color: rgba(0, 0, 0, 0.72);
   max-width: 280px;
 `
 
@@ -45,7 +45,7 @@ const ContactTitle = styled.p`
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.5);
+  color: rgba(0, 0, 0, 0.5);
   margin-bottom: 14px;
 `
 
@@ -57,7 +57,7 @@ const Links = styled.div`
 
 const Link = styled.a`
   font-size: 0.92rem;
-  color: rgba(255,255,255,0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   transition: ${({ theme }) => theme.transition};
 
@@ -83,7 +83,7 @@ const Bottom = styled.div`
 
 const Copy = styled.p`
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(0, 0, 0, 0.5);
 `
 
 const Footer = () => (

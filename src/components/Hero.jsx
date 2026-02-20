@@ -5,6 +5,7 @@
 import styled, { keyframes } from 'styled-components'
 import { buildWhatsAppLink } from '../utils/whatsapp'
 import { WHATSAPP_DEFAULT_MESSAGE } from '../data/products'
+import imagemCoruja from '../assets/coruja.png'
 
 const fadeUp = keyframes`
   from { opacity: 0; transform: translateY(24px); }
@@ -143,14 +144,8 @@ const SecondaryButton = styled.button`
   }
 `
 
-const EmojiRow = styled.div`
+const ImageRow = styled.div`
   margin-top: 56px;
-  display: flex;
-  gap: 20px;
-  font-size: 2.4rem;
-  animation: ${fadeUp} 0.7s 0.45s ease both;
-  position: relative;
-  z-index: 1;
 `
 
 const Hero = ({ onOpenGallery }) => (
@@ -158,7 +153,7 @@ const Hero = ({ onOpenGallery }) => (
     <Badge>📍 Rio de Janeiro – RJ</Badge>
 
     <Title>
-      Papelaria que conta a <em>sua história</em>
+      Personalizados que contam a <em>sua história</em>
     </Title>
 
     <Subtitle>
@@ -179,7 +174,7 @@ const Hero = ({ onOpenGallery }) => (
       </SecondaryButton>
     </ButtonGroup>
 
-    <EmojiRow>🎂 &nbsp;🎄 &nbsp;🐣 &nbsp;📔</EmojiRow>
+    <ImageRow><img src={imagemCoruja}/> <img src={imagemCoruja}/> <img src= {imagemCoruja}/> <img src={imagemCoruja}/> </ImageRow>
   </Section>
 )
 
