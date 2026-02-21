@@ -8,7 +8,7 @@ const darkTheme = {
 
   colors: {
     background:    '#1A0A10',
-    surface:       '#261018',
+    surface:       '#361722',
     surfaceHover:  '#33151F',
     border:        '#4A2030',
 

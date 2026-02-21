@@ -145,12 +145,23 @@ const SecondaryButton = styled.button`
 `
 
 const ImageRow = styled.div`
-  margin-top: 56px;
+  margin-top: 90px;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+  }
+
+  #hide-coruja-mobile {
+    @media screen and (max-width: 828px){
+      display: none;
+    }
+  }
 `
 
 const Hero = ({ onOpenGallery }) => (
   <Section id="inicio">
-    <Badge>📍 Rio de Janeiro – RJ</Badge>
+    <Badge>📍 Ilha do Governador – RJ</Badge>
 
     <Title>
       Personalizados que contam a <em>sua história</em>
@@ -174,7 +185,7 @@ const Hero = ({ onOpenGallery }) => (
       </SecondaryButton>
     </ButtonGroup>
 
-    <ImageRow><img src={imagemCoruja}/> <img src={imagemCoruja}/> <img src= {imagemCoruja}/> <img src={imagemCoruja}/> </ImageRow>
+    <ImageRow> <a href="#produtos"><img src={imagemCoruja}/> <img src= {imagemCoruja}/>  <span id='hide-coruja-mobile'> <img src={imagemCoruja}/> <img src={imagemCoruja}/> </span></a> </ImageRow>
   </Section>
 )
 
